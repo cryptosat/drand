@@ -7,9 +7,9 @@ earth node is the leader node, which means the script for the earth node must
 run **before** the script for the iss node.
 
 The scripts initialize the nodes using a shared secret and then proceed to poll
-the drand group every second to obtain random values. The results are stored in
-logs. Note that each round is configured to be 10 seconds, therefore we over
-sample the group.
+the drand group every second to obtain random values for a total of 10 minutes.
+The results are stored in logs. Note that each round is configured to be 10
+seconds, therefore we over sample the group.
 
 ## Ports
 
