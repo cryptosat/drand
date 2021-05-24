@@ -1,0 +1,24 @@
+name: drand
+base: core18
+version: '1.2.7'
+summary: Distributed randomness beacon
+description: |
+  Linked drand nodes collectively produce publicly verifiable, unbiased and
+  unpredictable random values at fixed intervals using bilinear pairings and
+  threshold cryptography.
+
+grade: devel
+confinement: classic
+
+apps:
+  drand:
+    command: bin/drand
+
+parts:
+  drand:
+    plugin: go
+    go-importpath: github.com/drand/drand
+    source: .
+    source-type: git
+    build-packages:
+      - gcc
