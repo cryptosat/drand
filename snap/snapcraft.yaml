@@ -1,5 +1,5 @@
 name: drand
-base: core18
+base: core20
 version: '1.2.7'
 summary: Distributed randomness beacon
 description: |
@@ -8,7 +8,7 @@ description: |
   threshold cryptography.
 
 grade: devel
-confinement: classic
+confinement: devmode
 
 apps:
   drand:
@@ -17,7 +17,7 @@ apps:
 parts:
   drand:
     plugin: go
-    go-importpath: github.com/drand/drand
+    # go-importpath: github.com/drand/drand
     source: .
     source-type: git
     build-packages:
