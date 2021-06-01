@@ -2,21 +2,21 @@
 
 set -e
 
-KEYS_DIR=/drand/iss_keys
+KEYS_DIR=/home/ubuntu/cryptosat/drand/iss_keys
 SHARED_SECRET="hATDw3MaFnqzl9Go3yskOrg9eTAs6SXJr80tJcZ9p9x/qDfXg5eEpeundKp9"
-SECRET_PATH=/drand/secret
+SECRET_PATH=/home/ubuntu/cryptosat/drand/secret
 EARTH_HOST=$2
 EARTH_PORT=8654
 ISS_HOST=$1
 ISS_PORT=8655
 CONTROL_PORT=9655
-OUTPUT_DIR=/drand/output
+OUTPUT_DIR=/home/ubuntu/cryptosat_external/drand/output
 GROUP_FILEPATH=$OUTPUT_DIR/iss_group.toml
 NUM_SECONDS=600
 
 # comment this out when testing both the earth and iss scripts on the
 # same machine
-killall drand
+# killall drand
 
 rm -rf $KEYS_DIR
 mkdir -p $KEYS_DIR
