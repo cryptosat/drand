@@ -4,7 +4,7 @@ set -e
 
 KEYS_DIR=/home/ubuntu/cryptosat/drand/earth_keys
 SHARED_SECRET="hATDw3MaFnqzl9Go3yskOrg9eTAs6SXJr80tJcZ9p9x/qDfXg5eEpeundKp9"
-SECRET_PATH=/home/ubuntu/cryptosat/drand/secret
+SECRET_PATH=/home/ubuntu/cryptosat/drand/earth_secret
 EARTH_HOST=$1
 EARTH_PORT=8654
 CONTROL_PORT=9654
