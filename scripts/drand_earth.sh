@@ -2,13 +2,13 @@
 
 set -e
 
-KEYS_DIR=/home/ubuntu/drand/earth_keys
+KEYS_DIR=/home/ubuntu/cryptosat/drand/earth_keys
 SHARED_SECRET="hATDw3MaFnqzl9Go3yskOrg9eTAs6SXJr80tJcZ9p9x/qDfXg5eEpeundKp9"
-SECRET_PATH=/home/ubuntu/drand/secret
+SECRET_PATH=/home/ubuntu/cryptosat/drand/secret
 EARTH_HOST=$1
 EARTH_PORT=8654
 CONTROL_PORT=9654
-OUTPUT_DIR=/home/ubuntu/drand/output
+OUTPUT_DIR=/home/ubuntu/cryptosat_external/drand/output
 GROUP_FILEPATH=$OUTPUT_DIR/earth_group.toml
 NUM_SECONDS=600
 
