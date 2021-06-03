@@ -8,7 +8,7 @@ SECRET_PATH=/home/ubuntu/cryptosat/drand/earth_secret
 EARTH_HOST=$1
 EARTH_PORT=8654
 CONTROL_PORT=9654
-OUTPUT_DIR=/home/ubuntu/cryptosat_external/drand/output
+OUTPUT_DIR=/home/ubuntu/cryptosat_external/output/drand
 GROUP_FILEPATH=$OUTPUT_DIR/earth_group.toml
 NUM_SECONDS=600
 

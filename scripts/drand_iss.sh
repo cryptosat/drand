@@ -10,7 +10,7 @@ EARTH_PORT=8654
 ISS_HOST=$1
 ISS_PORT=8655
 CONTROL_PORT=9655
-OUTPUT_DIR=/home/ubuntu/cryptosat_external/drand/output
+OUTPUT_DIR=/home/ubuntu/cryptosat_external/output/drand
 GROUP_FILEPATH=$OUTPUT_DIR/iss_group.toml
 NUM_SECONDS=600
 
