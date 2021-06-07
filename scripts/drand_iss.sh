@@ -5,9 +5,9 @@ set -e
 KEYS_DIR=/home/ubuntu/cryptosat/drand/iss_keys
 SHARED_SECRET="hATDw3MaFnqzl9Go3yskOrg9eTAs6SXJr80tJcZ9p9x/qDfXg5eEpeundKp9"
 SECRET_PATH=/home/ubuntu/cryptosat/drand/iss_secret
-EARTH_HOST=$2
+EARTH_HOST=$1
 EARTH_PORT=8654
-ISS_HOST=$1
+ISS_HOST=$2
 ISS_PORT=8655
 CONTROL_PORT=9655
 OUTPUT_DIR=/home/ubuntu/cryptosat_external/output/drand
